@@ -1,0 +1,723 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: auto;
+}
+.container .main {
+    width: 100%;
+    height: auto;
+}
+.container .main .nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5414984191;
+    background-color: white;
+}
+.toglar i {
+    display: none;
+}
+.container .main .nav .ul {
+    padding-right: 100px;
+}
+.container .main .nav .ul ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+}
+.container .main .nav .ul li {
+    padding: 20px;
+    list-style: none;
+    text-align: right;
+    font-weight: 700;
+}
+.container .main .nav .ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.container .main .nav .ul li a:hover {
+    color: #ed893d;
+}
+.container .main .nav .ul li a .homee {
+    color: #ed893d;
+}
+.container .main .nav .logo1 {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+.container .main .nav .logo1 a {
+    text-decoration: none;
+    color: #555;
+    font-size: 28px;
+    font-weight: 550;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+.container .main .nav .logo1 a span {
+    color: #ed893d;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container .main .nav .logo1 li {
+    padding: 20px;
+    list-style: none;
+}
+.container .main .nav .ul li a span {
+    color: rgb(212, 18, 18);
+}
+.mainm {
+    padding-top: 9%;
+    margin-left: 350px;
+}
+.container .main h2 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 130px;
+    width: 100%;
+    font-family: "Philosopher", sans-serif;
+    color: #ed893d;
+    margin-bottom: 10px;
+}
+.container .main .mainm .image{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .main .mainm p {
+    color: #777;
+    width: 100%;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.container .main .mainm button {
+    padding: 11px 36px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #ed893d;
+    font-size: 13px;
+    color: #ed893d;
+    width: 150px;
+    margin-left: 315px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.container .main .mainm button:hover {
+    background-color: #ed893d;
+    color: white;
+}
+.mainm .icons {
+    padding-top: 30px;
+    display: flex;
+    font-size: 20px;
+    margin-left: 270px;
+    width: 500px;
+    color: rgb(53, 51, 51);
+}
+.mainm .icons a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.mainm .icons .icon {
+    margin-left: 50px;
+}
+.container .main .aim {
+    width: auto;
+}
+.container .main .aim .discription {
+    width: 100%;
+    margin-top: 200px;
+}
+.container .main .aim .discription h2 {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 10;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 100px;
+}
+.h {
+    padding-top: 10px;
+}
+.container .main .aim .colum {
+    width: 100%;
+}
+.container .main .aim .cards {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .main .aim .cards .card {
+    margin-bottom: 30px;
+    width: 40%;
+    height: 230px;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.container .main .aim .cards .card:hover {
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.container .main .aim .cards .card p {
+    margin-top: 30px;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.container .main .aim .cards .card img {
+    height: 60px;
+    margin-bottom: 30px;
+    width: 60px;
+    margin-top: 20px;
+}
+.container .main .aim .row {
+    width: 100%;
+    background-color: #ffffff;
+}
+.container .main .aim .row .services {
+    width: 100%;
+}
+.container .main .aim .row .services h1 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 10;
+    text-align: center;
+    margin-top: 400px;
+    color: #323131;
+}
+.container .main .aim .row .services p {
+    text-align: center;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+.container .main .aim .row .services .arow {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .main .aim .row .services .arowe {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .main .aim .row .services .arow .item {
+    width: 20%;
+    height: 190px;
+    background-color: #fefefe;
+    text-align: center;
+}
+.container .main .aim .row .services .arowe .item {
+    width: 20%;
+    height: 150px;
+    background-color: #fefefe;
+    text-align: center;
+    padding-top: 40px;
+}
+.container .main .aim .row .services .item:hover {
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.container .main .aim .row .services .item img {
+    height: 60px;
+    margin-bottom: 30px;
+    width: 60px;
+    margin-top: 25px;
+}
+.container .main .aim .row .services .swang {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+.container .main .aim .row .services .swang .item {
+    width: 20%;
+    height: 190px;
+    background-color: #fefefe;
+    text-align: center;
+}
+.container .main .aim .row .services .swange {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+.container .main .aim .row .services .swange .item {
+    width: 20%;
+    height: 150px;
+    background-color: #fefefe;
+    text-align: center;
+    padding-top: 50px;
+}
+.container .main .Contact {
+    width: 100%;
+}
+.container .main .Contact .us {
+    width: 100%;
+}
+.Contact .us h2 {
+    text-align: center;
+    margin-right: 20px;
+    padding-right: 80px;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 10;
+    color: #3a3a3a;
+    margin-bottom: 100px;
+}
+.Contact .us .add {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.Contact .us .add .inputs {
+    width: 30%;
+    height: 500px;
+    text-align: center;
+}
+.Contact .us .add .inputs input {
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 10px;
+}
+.Contact .us .add .direction {
+    width: 20%;
+    height: 500px;
+}
+.Contact .us .add .inputs textarea {
+    margin: 10px;
+}
+.Contact .us .add .inputs button {
+    background: #ed893d;
+    padding: 10px 24px;
+    color: #fff;
+    border: 0px;
+}
+.Contact .us .add .direction .hero {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.Contact .us .add .direction .hero i {
+    color: #ed893d;
+    font-size: xx-large;
+}
+.Contact .us .add .direction .hero h4 {
+    margin-left: 20px;
+    color: #626262;
+}
+.Contact .us .add .direction p {
+    margin-left: 45px;
+    color: #626262;
+}
+iframe {
+    margin: 40px;
+}
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-top: 10px solid black;
+    text-align: center;
+}
+.footer .last {
+    margin-top: 30px;
+}
+
+
+@media(max-width:950px) {
+    .container .main .nav {
+        position: fixed;
+        z-index: 618498984;
+    }
+
+    .container .main .nav .logo1 a {
+        padding-left: 0px;
+    }
+
+    .container .main .nav .logo1 {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .container .main .nav .ul {
+        display: none;
+    }
+
+    .toglar i {
+        display: block;
+        color: red;
+        padding-top: 40px;
+        width: 50px;
+    }
+    .container .main .mainm {
+        margin-left: 0px;
+        padding-top: 80px;
+    }
+    .container .main .mainm .image .heading h2 {
+        padding-left: 0px;
+        margin-left: 15px;
+        font-size: 30px;
+        text-align: center;
+        padding-right: 0px;
+
+    }
+
+    .container .main .mainm .image p {
+        margin-left: 25px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .container .main .mainm img {
+        width: 300px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .container .main .aim 
+    .Contact .inputs {
+        width: 90%;
+        border-top: 1px solid #9e9e9e;
+    }
+
+    .container .main .mainm button {
+        margin-left: 120px;
+    }
+
+    .mainm .icons {
+        margin-left: 50px;
+    }
+
+    .container .main .aim .discription {
+        margin-top: 150px;
+    }
+
+    .container .main .aim .discription h2 {
+       
+        padding-left: 0px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .container .main .aim .cards {
+        display: block;
+        flex-wrap: wrap;
+
+    }
+    .container .main .aim .cards .card{
+        padding: 0px;
+        margin: 0px;
+        width: 80%;
+        margin-left: 45px;
+
+    }
+    .container .main .aim .row .services h1 {
+       
+        text-align: center;
+        font-size: 25px;
+        margin-top: 200px;
+    }
+
+    .container .main .aim .row .services p {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .container .main .aim .row .services .arow {
+        display: block;
+        width: 100%;
+       
+        
+    }
+    .container .main .aim .row .services .arow .item{
+        margin-left: 100px;
+        width: 50%;
+        padding: 0px;
+    }
+    .container .main .aim .row .services .swang .item{
+        margin-left: 100px;
+        width: 50%;
+        padding: 0px;
+    }
+    .container .main .aim .row .services .swang {
+        display: block;
+    }
+
+    .container .main .aim .row .services .alone {
+        text-align: center;
+        font-size: 25px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container .main .aim .row .services .arowe {
+        display: block;
+    }
+    .container .main .aim .row .services .arowe .item{
+        margin-left: 100px;
+        width: 50%;
+    }
+    .container .main .aim .row .services .swange .item{
+        margin-left: 100px;
+        width: 50%;
+    }
+    .container .main .aim .row .services .swange {
+        display: block;
+    }
+
+    .Contact .us h2 {
+        margin-left: 0px;
+    }
+    .Contact .us .add {
+        display: block;
+    }
+
+    .Contact .us .add .inputs input {
+        width: 300px;
+    }
+
+    .Contact .us .add .inputs textarea {
+        width: 300px;
+        height: 100px;
+    }
+
+    .Contact .us .add .inputs button {
+        margin-left: 20px;
+    }
+
+    .Contact .us .add .direction .hero {
+        margin-left: 130px;
+    }
+
+    .Contact .us .add .direction .hero i h4 {
+        margin-left: 150px;
+    }
+
+    iframe {
+        margin-left: 130px;
+    }
+    .footer {
+        width: 100%;
+        margin-top: 600px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+@media(max-width:600px) { 
+    .container .main .nav {
+        position: fixed;
+        z-index: 618498984;
+    }
+
+    .container .main .nav .logo1 a {
+        padding-left: 0px;
+    }
+
+    .container .main .nav .logo1 {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .container .main .nav .ul {
+        display: none;
+    }
+
+    .toglar i {
+        display: block;
+        color: red;
+        padding-top: 40px;
+        width: 50px;
+    }
+    .container .main .mainm {
+        margin-left: 0px;
+        padding-top: 80px;
+    }
+    .container .main .mainm .image .heading h2 {
+        padding-left: 0px;
+        margin-left: 15px;
+        font-size: 30px;
+        text-align: center;
+        padding-right: 0px;
+
+    }
+
+    .container .main .mainm .image p {
+        margin-left: 25px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .container .main .mainm img {
+        width: 300px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .container .main .aim 
+    .Contact .inputs {
+        width: 90%;
+        border-top: 1px solid #9e9e9e;
+    }
+
+    .container .main .mainm button {
+        margin-left: 120px;
+    }
+
+    .mainm .icons {
+        margin-left: 50px;
+    }
+
+    .container .main .aim .discription {
+        margin-top: 150px;
+    }
+
+    .container .main .aim .discription h2 {
+       
+        padding-left: 0px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .container .main .aim .cards {
+        display: block;
+        flex-wrap: wrap;
+
+    }
+    .container .main .aim .cards .card{
+        padding: 0px;
+        margin: 0px;
+        width: 80%;
+        margin-left: 45px;
+
+    }
+    .container .main .aim .row .services h1 {
+       
+        text-align: center;
+        font-size: 25px;
+        margin-top: 200px;
+    }
+
+    .container .main .aim .row .services p {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .container .main .aim .row .services .arow {
+        display: block;
+        width: 100%;
+       
+        
+    }
+    .container .main .aim .row .services .arow .item{
+        margin-left: 100px;
+        width: 50%;
+        padding: 0px;
+    }
+    .container .main .aim .row .services .swang .item{
+        margin-left: 100px;
+        width: 50%;
+        padding: 0px;
+    }
+    .container .main .aim .row .services .swang {
+        display: block;
+    }
+
+    .container .main .aim .row .services .alone {
+        text-align: center;
+        font-size: 25px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container .main .aim .row .services .arowe {
+        display: block;
+    }
+    .container .main .aim .row .services .arowe .item{
+        margin-left: 100px;
+        width: 50%;
+    }
+    .container .main .aim .row .services .swange .item{
+        margin-left: 100px;
+        width: 50%;
+    }
+    .container .main .aim .row .services .swange {
+        display: block;
+    }
+
+    .Contact .us h2 {
+        margin-left: 0px;
+    }
+    .Contact .us .add {
+        display: block;
+    }
+
+    .Contact .us .add .inputs input {
+        width: 300px;
+    }
+
+    .Contact .us .add .inputs textarea {
+        width: 300px;
+        height: 100px;
+    }
+
+    .Contact .us .add .inputs button {
+        margin-left: 20px;
+    }
+
+    .Contact .us .add .direction .hero {
+        margin-left: 130px;
+    }
+
+    .Contact .us .add .direction .hero i h4 {
+        margin-left: 150px;
+    }
+
+    iframe {
+        margin-left: 130px;
+    }
+    .footer {
+        width: 100%;
+        margin-top: 600px;
+        text-align: center;
+    }
+}
